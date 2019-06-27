@@ -1,6 +1,4 @@
-/*// Extra small devices (portrait phones, less than 576px)*/
-
-@media (max-width: 575px) {
+@media (min-width: 320px) and (max-width: 399px) {
 	.mid {
 		margin-top: 50px;
 	}
@@ -23,6 +21,43 @@
 	}
 	.bm7r4g {
 		justify-content: flex-start;
+	}
+	.table td, .table th {
+	    font-size: 0.4rem !important;
+	    white-space: nowrap;
+	}
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+
+@media (min-width: 400px) and (max-width: 565px) {
+	.mid {
+		margin-top: 50px;
+	}
+	.gs4thj {
+		text-align: center;
+		padding: 0;
+	}
+	.gfwn43 {
+		padding-top: 20px;
+	}
+
+	.ign6k7 {
+    width: 70%;
+	}
+	.w3bs58 {
+		text-align: left;
+		width: 50%;
+    	margin: 1rem 0;
+		padding-left: 0;
+	}
+	.bm7r4g {
+		justify-content: flex-start;
+	}
+	.table td, .table th {
+	    font-size: 0.7rem !important;
+	    white-space: nowrap;
 	}
 }
 
