@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>popup</title>
+    <script src="script.js"></script>
+</head>  
+<body style="background-image: url('aa.jpg');background-image: cover;">
+
+    <!--review button-->
+    <input type="button" id="reviews" value="reviews" name="" style="margin-left: 35%;margin-right: 20%;margin-top: 2%;margin-bottom: 2%;height: 50px;background-color: #884FF3;text-align: center;width: 10%;border-radius: 5%;
+    position: fixed;">
+
+    <!--feedback button-->
+    <input type="button" id="feedback" value="feedback" name="" style="margin-left: 55%;margin-right: 20%;margin-top: 2%;margin-bottom: 2%;height: 50px;background-color: #884FF3;text-align: center;width: 10%;border-radius: 5%;
+    position: relative;">
+    <!--welcome message -->
+    <div class="pop" style="z-index: 4;margin-left: 20%;margin-right: 20%;margin-top: 10%;margin-bottom: 2%;height: 30%;background-color: #768b8e;text-align: center;border-radius: 5%"><br/><h1>   WELCOME </h1><br></div>
+
+    <!--review -->
+    <div id="pop1" z-index="1"  style="margin-left: 20%;margin-right: 20%;margin-top: 5%;margin-bottom: 2%;height: 30%; background-color: #40858e;text-align: center; position: fixed; display: none; width: 60%;border-radius: 5%"><h2> REVIEWS </h2>
+<h3 >&nbsp&nbsp&nbsp&nbsp&nbsp Name  :  <input type="TextBox" style="opacity: 0.5;width: 25%;" id="txtNamef" name="txt" placeholder=" you can't edit this field" value="" disabled="disabled"></h3>
+ <h3>Feedback : <input type="TextBox"  style="opacity: 0.5;width: 25%;" id="txtf" name="txt" placeholder=" you can't edit this field " value="" disabled="disabled"></h3>
+   <input type="button" class="close" value="close" width="1000px">
+
+    </div>
+
+
+<!--feedback-->
+    <div class="pop-feed" style="background-color: #995892:; position:fixed;display: none; ">
+
+    <div id="pop2" z-index="1"; style="margin-left: 20%;margin-right: 20%;margin-top: 5%;margin-bottom: 2%;height: 40%;background-color: #40858e;text-align: center;width: 60%;border-radius: 5%;
+    position: fixed;">
+    <h2> &nbsp&nbsp&nbspFEEDBACK</h2>
+        <h3>  &nbsp&nbsp&nbsp&nbsp&nbsp  Name  :  &nbsp&nbsp&nbsp <input style="opacity: 0.5;width: 25%;" type="TextBox" id="txtName" class="txt" name="txt" placeholder="enter your name " value=""></h3>
+    <h3>Feedback  : &nbsp&nbsp <textarea style="opacity: 0.5;width: 25%;" id="txt" class="txt" name="txtFeedback" value="" placeholder="enter your opinion"></textarea> </h3>
+    <br>
+        <input type="submit" " value="FEEDBACK" disabled="disabled" style="height: 15%;background-color: #884FF3;text-align: center;width: 15%;border-radius: 5%;
+    ">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="button" class="close" value="CLOSE" style="height: 15%;background-color: #884FF3;text-align: center;width: 10%;border-radius: 5%;">
+    </div>
+    </div>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="popup.js">
+    </script>
+
+</body>
+</html>
