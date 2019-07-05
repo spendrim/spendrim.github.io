@@ -634,3 +634,102 @@ ul, ol {
     margin: 0px;
     list-style: none;
 }
+
+/*///////////////////////////////LOGIN////////////////////////////////*/
+.header {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header .b5htdd {
+    display: flex;
+    justify-content: center;
+}
+
+.header .b5htdd .img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+}
+
+.main .c0n73t {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+.main .c0n73t .l8gn99 {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d8dee2;
+    width: 60%;
+}
+
+.main .c0n73t .l8gn99 form input{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+}
+
+.main .c0n73t .l8gn99 .f_input {
+    background-color: #fff;
+    background-position: right 8px center;
+    background-repeat: no-repeat;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+    color: #24292e;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 34px;
+    outline: none;
+    padding: 6px 8px;
+    vertical-align: middle;
+}
+
+.main .c0n73t .l8gn99 .s_btn {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #4f12ad;
+    background-image: linear-gradient(-180deg,#6e00ff,#3c1b69 90%);
+    color: #fff;
+    background-position: -1px -1px;
+    background-repeat: repeat-x;
+    background-size: 110% 110%;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: .25em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 12px;
+    position: relative;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.main .c0n73t .s8nu9p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+
+}
+
+.main .c0n73t .s8nu9p p {
+    border: 1px solid #d8dee2;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.main .c0n73t .l8gn99 input:focus {
+    border-color: #2188ff;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075), 0 0 0 0.2em rgba(3,102,214,.3);
+    outline: none;
+}
