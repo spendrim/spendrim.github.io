@@ -636,10 +636,28 @@ ul, ol {
 }
 
 /*///////////////////////////////LOGIN////////////////////////////////*/
-.header {
+.logo {
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.logo .b5htdd {
+    display: flex;
+    justify-content: center;
+}
+
+.logo .b5htdd .img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+}
+
+.header {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .header .b5htdd {
@@ -647,12 +665,12 @@ ul, ol {
     justify-content: center;
 }
 
-.header .b5htdd .img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 40%;
+.header .b5htdd h1 {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -.5px
 }
+
 .main {
     margin-left: auto;
     margin-right: auto;
