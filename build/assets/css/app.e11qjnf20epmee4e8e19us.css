@@ -766,8 +766,8 @@ ul, ol {
     /*left: 15px;
     top: 50%;*/
     bottom: auto;
-    -webkit-transform: translate(40%,50%);
-    transform: translate(40%,50%);
+    -webkit-transform: translate(40%,60%);
+    transform: translate(40%,60%);
     height: 20px;
     width: 20px;
     overflow: hidden;
@@ -783,4 +783,16 @@ ul, ol {
 
 .pass-sv {
      background-image: url(../svg/pass-icon.svg);
+}
+.hd-pass {
+    display: inline-block;
+    position: absolute;
+    padding: 3px 6px;
+    border-left: 1px solid #d2d8d8;
+    bottom: auto;
+    -webkit-transform: translate(40%,60%);
+    -ms-transform: translate(40%,60%);
+    transform: translate(540%,-189%);
+    font-size: 1rem;
+    color: #343642;
 }
