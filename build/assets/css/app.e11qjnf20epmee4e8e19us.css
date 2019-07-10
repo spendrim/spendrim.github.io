@@ -692,14 +692,10 @@ ul, ol {
     width: 60%;
 }
 
-.main .c0n73t .l8gn99 form input{
-    margin-bottom: 15px;
-    margin-top: 5px;
+
+.main .c0n73t .l8gn99 .lgn_input {
     display: block;
     width: 100%;
-}
-
-.main .c0n73t .l8gn99 .f_input {
     background-color: #fff;
     background-position: right 8px center;
     background-repeat: no-repeat;
@@ -717,7 +713,7 @@ ul, ol {
     vertical-align: middle;
 }
 
-.main .c0n73t .l8gn99 .s_btn {
+.main .c0n73t .l8gn99 .lgn_btn {
     display: block;
     text-align: center;
     width: 100%;
@@ -784,15 +780,108 @@ ul, ol {
 .pass-sv {
      background-image: url(../svg/pass-icon.svg);
 }
-.hd-pass {
+.lgn-hd-pass {
     display: inline-block;
     position: absolute;
-    padding: 3px 6px;
+    right: 0;
+    top: 0;
+    padding: 6px 15px;
     border-left: 1px solid #d2d8d8;
+    top: 50%;
     bottom: auto;
-    -webkit-transform: translate(40%,60%);
-    -ms-transform: translate(40%,60%);
-    transform: translate(540%,-189%);
-    font-size: 1rem;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 0.9rem;
     color: #343642;
 }
+
+/*//////////////// SIGN UP//////////////////////////*/
+.sign-up-form .usr_full_name {
+    display: flex;
+}
+.usr_fname, .usr_lname {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    background-position: right 8px center;
+    background-repeat: no-repeat;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+    color: #24292e;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 34px;
+    outline: none;
+    padding: 10px 8px;
+    vertical-align: middle;
+}
+.main .c0n73t .l8gn99 .rgstr_input {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    background-position: right 8px center;
+    background-repeat: no-repeat;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+    color: #24292e;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 34px;
+    outline: none;
+    padding: 10px 8px;
+    vertical-align: middle;
+}
+.main .c0n73t .l8gn99 .rgstr_btn {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #4f12ad;
+    background-image: linear-gradient(-180deg,#6e00ff,#3c1b69 90%);
+    color: #fff;
+    background-position: -1px -1px;
+    background-repeat: repeat-x;
+    background-size: 110% 110%;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: .25em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 12px;
+    position: relative;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.form-fields {
+  position: relative;
+}
+
+.form-fields:first-child {
+  margin-top: 0;
+}
+
+.form-fields:last-child {
+  margin-bottom: 0;
+}
+
+.l8gn99 .sign-up-form .hp85jb {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px 15px;
+    border-left: 1px solid #d2d8d8;
+    top: 70%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+    color: #343642;
+}
+

@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="../build/core/bootstrap/4.3.1/scss/app.css">
     <link rel="stylesheet" type="text/css" href="../build/assets/css/app.e11qjnf20epmee4e8e19us.css">
     <link rel="stylesheet" type="text/css" href="../build/assets/css/app.mq.css">
-    <link rel="stylesheet" type="text/css" href="../build/assets/css/rangeslider.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
     <title>Sign up to Spendrim</title>
   </head>
 <body>
@@ -48,33 +48,41 @@
 <div class="main">
 	<div class="c0n73t">
 		<div class="l8gn99">
-			<form class="cd-signin-modal__form">
-                <p class="cd-signin-modal__fieldset">
-                    <label class="cd-signin-modal__label cd-signin-modal__label--username cd-signin-modal__label--image-replace" for="signup-username">Username</label>
-                    <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signup-username" type="text" placeholder="Username">
-                    <span class="cd-signin-modal__error">Error message here!</span>
+			<form class="sign-up-form">
+                <div class="usr_full_name">
+                    <p class="form-fields">
+                        <label class="" for="signup-fname"></label>
+                        <input class="usr_fname" id="signup-username" type="text" placeholder="First Name">
+                    </p>
+
+                    <p class="form-fields">
+                        <label class="" for="signup-lname"></label>
+                        <input class="usr_lname" id="signup-username" type="text" placeholder="Last Name">
+                    </p>
+                </div>
+                <p class="form-fields">
+                    <label class="form-fields" for="signup-username"></label>
+                    <input class="rgstr_input" id="signup-username" type="text" placeholder="Username">
                 </p>
 
-                <p class="cd-signin-modal__fieldset">
-                    <label class="cd-signin-modal__label cd-signin-modal__label--email cd-signin-modal__label--image-replace" for="signup-email">E-mail</label>
-                    <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signup-email" type="email" placeholder="E-mail">
-                    <span class="cd-signin-modal__error">Error message here!</span>
+                <p class="form-fields">
+                    <label class="" for="signup-email"></label>
+                    <input class="rgstr_input" id="signup-email" type="email" placeholder="E-mail">
                 </p>
 
-                <p class="cd-signin-modal__fieldset">
-                    <label class="cd-signin-modal__label cd-signin-modal__label--password cd-signin-modal__label--image-replace" for="signup-password">Password</label>
-                    <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding cd-signin-modal__input--has-border" id="signup-password" type="text"  placeholder="Password">
-                    <a href="#0" class="cd-signin-modal__hide-password js-hide-password">Hide</a>
-                    <span class="cd-signin-modal__error">Error message here!</span>
+                <p class="form-fields">
+                    <label class="" for="signup-password"></label>
+                    <input class="rgstr_input" id="signup-password" type="password"  placeholder="Password">
+                    <a href="#0" class="hp85jb js-hd-pass">Hide</a>
                 </p>
 
-                <p class="cd-signin-modal__fieldset">
-                    <input type="checkbox" id="accept-terms" class="cd-signin-modal__input ">
+                <p class="form-fields">
+                    <input type="checkbox" id="accept-terms" class="tsncns">
                     <label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
                 </p>
 
-                <p class="cd-signin-modal__fieldset">
-                    <input class="cd-signin-modal__input cd-signin-modal__input--full-width cd-signin-modal__input--has-padding" type="submit" value="Create account">
+                <p class="form-fields">
+                    <input class="rgstr_btn" type="submit" value="Create account">
                 </p>
             </form>
 		</div>
