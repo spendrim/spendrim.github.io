@@ -246,9 +246,17 @@
     opacity: 0.75;
 }
 
+.get-wllt {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .ign6k7 {
     margin-bottom: inherit;
-    width: 45%;
 }
 .ign6k7 input {
     font-weight: 600;
@@ -258,6 +266,9 @@
     padding: 0px 1rem;
     border-style: initial;
     width: 100%;
+}
+.hgj6kL {
+    margin: 15px 0;
 }
 
 .hgj6kL button {
@@ -652,6 +663,9 @@ ul, ol {
     flex-wrap: wrap;
     justify-content: center;
     width: 40%;
+}
+.logo .b5htdd a {
+    text-align: -webkit-center;
 }
 
 .header {
