@@ -211,7 +211,16 @@
 	}
 
 }
-
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-collapse {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: space-between;
+	}
+}
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	.main-body .container {
