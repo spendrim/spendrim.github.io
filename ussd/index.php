@@ -1,9 +1,9 @@
 <?php
 // Reads the variables sent via POST from our gateway
-$sessionId   = $GET["sessionId"];
-$serviceCode = $GET["serviceCode"];
-$phoneNumber = $GET["phoneNumber"];
-$text        = $GET["text"];
+$sessionId   = $_GET["sessionId"];
+$serviceCode = $_GET["serviceCode"];
+$phoneNumber = $_GET["phoneNumber"];
+$text        = $_GET["text"];
 
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
